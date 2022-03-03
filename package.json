@@ -1,0 +1,19 @@
+{
+  "name": "test-parcel-hot-reload",
+  "version": "1.0.0",
+  "description": "Added pause/resume. See post https://potatodie.nl/diffuse-write-ups/move-a-dot-along-a-path/",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --host=0.0.0.0 --hmr-port=34455",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "src": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

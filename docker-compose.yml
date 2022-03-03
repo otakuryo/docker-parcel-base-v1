@@ -1,0 +1,12 @@
+services:
+  app-parcel:
+    build: .
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - 8181:80
+      - 1234:1234
+      - 34455:34455
+    
+    
